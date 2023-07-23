@@ -1,0 +1,551 @@
+/* COMMON CSS STARTs */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style:none;
+}
+.container{
+    width: 1320px;
+    /* background: teal; */
+    /* height: 100px; */
+    margin: 0 auto;
+}
+/* COMMON CSS ENDs */
+
+
+
+
+
+
+/* NAVBAR CSS STARTs */
+#navbar{
+    /* background: red; */
+    /* height: 100px; */
+    position: absolute;
+    width: 100%; /*mukusto*//*mukusto*/
+}
+.logo{
+    width: 20%;
+    /* background: yellow; */
+    /* height: 100px; */
+    margin-top: 28px;
+}
+.menu-item{
+    width: 80%;
+    /* background: pink; */
+    /* height: 100px; */
+    margin-top: 35px;
+}
+.nav-wrapper{
+    display: flex;
+}
+
+.menu-item ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    margin-left: 60px;
+
+    /* transition: all linear 0.5s; |akhane dite hoy| */
+}
+
+.menu-item ul li a:hover{
+    color: black;
+    transition: all linear 0.5s; /* 0.4s */
+}
+/* NAVBAR CSS ENDs */
+
+
+
+
+
+
+
+/* BANNER CSS STARTs */
+#banner{
+    background: url(../images/banner.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 462px;
+    padding-bottom: 462px;
+}
+.banner-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFC178;
+}
+.banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    padding-top: 37.78px;
+}
+
+.banner-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+/* BANNER CSS ENDs */
+
+
+
+
+
+
+/* ABOUT CSS STARTs */
+#about-part{
+    background: black;
+    padding-top: 286px;
+}
+
+.about-wrapper{
+    display: flex;
+}
+
+.about-text{
+    margin-left: 139px;
+}
+
+.about-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+
+    margin-top: 78px;
+}
+
+.about-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FBD784;
+
+    margin-top: 66px;
+}
+/* ABOUT CSS ENDs */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OTHER PART CSS STARTs */
+#other-part{
+    background: black;
+    padding-top: 295px;
+}
+
+.other-details{
+    background: url(../images/other.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    text-align: center; 
+
+    /* padding-top: 559px; */
+}
+.other-details h6{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+
+    padding-top: 559px;
+}
+
+.other-details h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    width: 932px;
+    margin: 0 auto;
+}
+
+.other-details p{  
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    width: 893px;
+    margin: 0 auto;
+}
+.other-details a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FBD784;
+
+    margin-top: 26px;
+    margin-bottom: 32.92px;
+}
+
+/* OTHER PART CSS ENDs */
+
+
+
+/* CULTURE PART CSS STARTs */
+#culture-part{
+    background: #000000;
+    padding-top: 295.08px;
+}
+
+.culture-details{
+    display: flex;
+
+    align-items: center;
+}
+
+.culture-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+
+    /* margin-top: 75px;[can't measure] */
+}
+
+.culture-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    width: 663px;
+}
+
+.culture-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    width: 655px;
+}
+
+.culture-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FBD784;
+
+    margin-top: 47px;
+}
+
+.culture-text{
+    padding-right: 37px;
+}
+
+/* CULTURE PART CSS ENDs */
+
+
+
+
+
+/* FOOTER PART CSS STARTs */
+
+#footer-part{
+    background: #000000;
+    padding-top: 199px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-right{
+    display: flex;
+}
+
+.footer-top-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    padding-top: 12px;
+}
+.btn a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #000000;
+
+    padding: 18px 67px;
+    background: #FFA343;
+    border-radius: 10px;
+
+    margin-left: 18px;
+}
+
+.footer-middle{
+    display: flex;
+}
+
+.footer-middle-first{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    width: 405px;
+    margin-top: 81px;
+}
+
+.footer-middle-second{
+    margin-left: 275px;
+    margin-top: 73px;
+}
+
+.footer-middle-second p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: -0.231818px;
+    text-transform: capitalize;
+    color: #FFD1A0;
+
+    padding-bottom: 38.67px;
+}
+
+.footer-middle-second ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 0px;
+    letter-spacing: -0.204545px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    padding-bottom: 30.93px;
+}
+
+.footer-middle-third{
+    margin-left: 84px;
+    margin-top: 69.56px;
+}
+
+.footer-middle-third p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: -0.231818px;
+    text-transform: capitalize;
+    color: #FFD1A0;
+
+    padding-bottom: 38.67px;
+}
+
+.footer-middle-third ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 0px;
+    letter-spacing: -0.204545px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    padding-bottom: 30.93px;
+}
+
+.footer-middle-last{
+    margin-left: 139px;
+    margin-top: 71.88px;
+}
+
+.footer-middle-last p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: -0.231818px;
+    text-transform: capitalize;
+    color: #FFD1A0;
+
+    padding-bottom: 38.67px;
+}
+
+.footer-middle-last ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 0px;
+    letter-spacing: -0.204545px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    padding-bottom: 30.93px;
+}
+
+.up{
+    text-transform: uppercase;
+}
+
+.tc p a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.icon{
+    /* color: #FFFFFF; */
+    margin-top: 48px;
+    display: flex;
+}
+
+.icon a{
+    color: #FFFFFF;
+}
+
+.twi{
+    margin-left: 29px;
+}
+
+.ins{
+    margin-left: 29px;
+}
+
+.footer-last{
+    margin-top: 153.87px;
+    padding-bottom: 30px;
+}
+
+.footer-last p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+
+    text-align: center;
+}
+
+
+/* FOOTER PART CSS ENDs */
