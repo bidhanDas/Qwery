@@ -10,7 +10,14 @@ a{
 }
 ul,ol{
     list-style:none;
+    /* list-style-type:none; */
 }
+/* default line-height has gone */
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+
+
 .container{
     width: 1320px;
     /* background: teal; */
@@ -549,3 +556,10 @@ ul,ol{
 
 
 /* FOOTER PART CSS ENDs */
+
+
+
+/* .box:hover {
+    background: #FFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+} */
