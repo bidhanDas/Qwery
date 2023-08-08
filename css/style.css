@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 0.8;
 }
 
-
 .container{
     width: 1320px;
     margin: 0 auto;
@@ -29,34 +28,26 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* NAVBAR CSS STARTs */
+/* ==========NAVBAR CSS STARTs========== */
 #navbar{
-    /* background: red; */
-    /* height: 100px; */
     position: absolute;
-    width: 100%; /*mukusto*//*mukusto*/
+    width: 100%;
 }
 .logo{
     width: 20%;
-    /* background: yellow; */
-    /* height: 100px; */
     margin-top: 28px;
 }
 .menu-item{
     width: 80%;
-    /* background: pink; */
-    /* height: 100px; */
     margin-top: 35px;
 }
 .nav-wrapper{
     display: flex;
 }
-
 .menu-item ul{
     display: flex;
     justify-content: flex-end;
 }
-
 .menu-item ul li a{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -70,12 +61,11 @@ h1,h2,h3,h4,h5,h6,p{
 
     /* transition: all linear 0.5s; |akhane dite hoy| */
 }
-
 .menu-item ul li a:hover{
     color: black;
     transition: all linear 0.5s; /* 0.4s */
 }
-/* NAVBAR CSS ENDs */
+/* ==========NAVBAR CSS ENDs========== */
 
 
 
@@ -83,7 +73,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* BANNER CSS STARTs */
+/* ==========BANNER CSS STARTs========== */
 #banner{
     background: url(../images/banner.jpg);
 
@@ -115,7 +105,6 @@ h1,h2,h3,h4,h5,h6,p{
 
     padding-top: 37.78px;
 }
-
 .banner-text h3{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -125,14 +114,14 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: capitalize;
     color: #FFFFFF;
 }
-/* BANNER CSS ENDs */
+/* ==========BANNER CSS ENDs========== */
 
 
 
 
 
 
-/* ABOUT CSS STARTs */
+/* ==========ABOUT CSS STARTs========== */
 #about-part{
     background: black;
     padding-top: 286px;
@@ -190,7 +179,7 @@ h1,h2,h3,h4,h5,h6,p{
 
     margin-top: 66px;
 }
-/* ABOUT CSS ENDs */
+/* ==========ABOUT CSS ENDs========== */
 
 
 
@@ -204,7 +193,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* OTHER PART CSS STARTs */
+/* ==========OTHER PART CSS STARTs========== */
 #other-part{
     background: black;
     padding-top: 295px;
@@ -272,11 +261,11 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 32.92px;
 }
 
-/* OTHER PART CSS ENDs */
+/* ==========OTHER PART CSS ENDs========== */
 
 
 
-/* CULTURE PART CSS STARTs */
+/* ==========CULTURE PART CSS STARTs========== */
 #culture-part{
     background: #000000;
     padding-top: 295.08px;
@@ -341,13 +330,13 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 37px;
 }
 
-/* CULTURE PART CSS ENDs */
+/* ==========CULTURE PART CSS ENDs========== */
 
 
 
 
 
-/* FOOTER PART CSS STARTs */
+/* ==========FOOTER PART CSS STARTs========== */
 
 #footer-part{
     background: #000000;
@@ -553,11 +542,4 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/* FOOTER PART CSS ENDs */
-
-
-
-/* .box:hover {
-    background: #FFF;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
-} */
+/* ==========FOOTER PART CSS ENDs========== */
