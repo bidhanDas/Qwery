@@ -1,4 +1,4 @@
-/* COMMON CSS STARTs */
+/* ==========COMMON CSS STARTs========== */
 *{
     margin: 0;
     padding: 0;
@@ -20,11 +20,9 @@ h1,h2,h3,h4,h5,h6,p{
 
 .container{
     width: 1320px;
-    /* background: teal; */
-    /* height: 100px; */
     margin: 0 auto;
 }
-/* COMMON CSS ENDs */
+/* ==========COMMON CSS ENDs========== */
 
 
 
