@@ -1,4 +1,4 @@
-/* ==========COMMON CSS STARTs========== */
+/* ============================== COMMON CSS ============================== */
 *{
     margin: 0;
     padding: 0;
@@ -12,23 +12,18 @@ ul,ol{
     list-style:none;
     /* list-style-type:none; */
 }
-/* default line-height has gone */
-h1,h2,h3,h4,h5,h6,p{
-    line-height: 0.8;
-}
-
 .container{
     width: 1320px;
     margin: 0 auto;
 }
-/* ==========COMMON CSS ENDs========== */
+/* ============================== COMMON CSS ============================== */
 
 
 
 
 
 
-/* ==========NAVBAR CSS STARTs========== */
+/* ============================== NAVBAR CSS ============================== */
 #navbar{
     position: absolute;
     width: 100%;
@@ -53,19 +48,17 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 25px;
+    line-height: normal;
     text-transform: capitalize;
     color: #FFFFFF;
 
     margin-left: 60px;
-
-    /* transition: all linear 0.5s; |akhane dite hoy| */
 }
 .menu-item ul li a:hover{
     color: black;
-    transition: all linear 0.5s; /* 0.4s */
+    transition: all linear 0.5s;
 }
-/* ==========NAVBAR CSS ENDs========== */
+/* ============================== NAVBAR CSS ============================== */
 
 
 
@@ -73,9 +66,9 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* ==========BANNER CSS STARTs========== */
+/* ============================== BANNER CSS ============================== */
 #banner{
-    background: url(../images/banner.jpg);
+    background: url(./../images/banner.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +82,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 25px;
+    line-height: normal;
     letter-spacing: 7px;
     text-transform: uppercase;
     color: #FFC178;
@@ -114,14 +107,14 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: capitalize;
     color: #FFFFFF;
 }
-/* ==========BANNER CSS ENDs========== */
+/* ============================== BANNER CSS ============================== */
 
 
 
 
 
 
-/* ==========ABOUT CSS STARTs========== */
+/* ============================== ABOUT CSS ============================== */
 #about-part{
     background: black;
     padding-top: 286px;
@@ -179,7 +172,7 @@ h1,h2,h3,h4,h5,h6,p{
 
     margin-top: 66px;
 }
-/* ==========ABOUT CSS ENDs========== */
+/* ============================== ABOUT CSS ============================== */
 
 
 
@@ -193,7 +186,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* ==========OTHER PART CSS STARTs========== */
+/* ============================== OTHER CSS ============================== */
 #other-part{
     background: black;
     padding-top: 295px;
@@ -208,7 +201,7 @@ h1,h2,h3,h4,h5,h6,p{
 
     text-align: center; 
 
-    /* padding-top: 559px; */
+    padding-top: 559px;
 }
 .other-details h6{
     font-family: 'Open Sans', sans-serif;
@@ -219,8 +212,6 @@ h1,h2,h3,h4,h5,h6,p{
     letter-spacing: 6px;
     text-transform: uppercase;
     color: #FBD784;
-
-    padding-top: 559px;
 }
 
 .other-details h2{
@@ -261,11 +252,11 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 32.92px;
 }
 
-/* ==========OTHER PART CSS ENDs========== */
+/* ============================== OTHER CSS ============================== */
 
 
 
-/* ==========CULTURE PART CSS STARTs========== */
+/* ============================== CULTURE CSS ============================== */
 #culture-part{
     background: #000000;
     padding-top: 295.08px;
@@ -286,8 +277,6 @@ h1,h2,h3,h4,h5,h6,p{
     letter-spacing: 6px;
     text-transform: uppercase;
     color: #FBD784;
-
-    /* margin-top: 75px;[can't measure] */
 }
 
 .culture-text h2{
@@ -330,13 +319,13 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 37px;
 }
 
-/* ==========CULTURE PART CSS ENDs========== */
+/* ============================== CULTURE CSS ============================== */
 
 
 
 
 
-/* ==========FOOTER PART CSS STARTs========== */
+/* ============================== FOOTER CSS ============================== */
 
 #footer-part{
     background: #000000;
@@ -507,7 +496,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .icon{
-    /* color: #FFFFFF; */
     margin-top: 48px;
     display: flex;
 }
@@ -542,4 +530,4 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/* ==========FOOTER PART CSS ENDs========== */
+/* ============================== FOOTER CSS ============================== */
