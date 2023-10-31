@@ -366,6 +366,10 @@ ul,ol{
     background: #FFA343;
     border-radius: 10px;
 
+    margin: 0 auto;
+}
+
+.btn{
     margin-left: 18px;
 }
 
