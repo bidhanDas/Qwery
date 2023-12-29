@@ -6,7 +6,7 @@
 }
 a{
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; /* ta na hole full block cursor pointer hoye jabe, a = inline tag */
 }
 ul{
     list-style:none;
